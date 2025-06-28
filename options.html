@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Generator Settings</h2>
+  <label>Password Length:
+    <input type="number" id="length" min="8" max="32" value="16">
+  </label><br/><br/>
+
+  <label><input type="checkbox" id="useUpper" checked> Include Uppercase</label><br/>
+  <label><input type="checkbox" id="useLower" checked> Include Lowercase</label><br/>
+  <label><input type="checkbox" id="useNumbers" checked> Include Numbers</label><br/>
+  <label><input type="checkbox" id="useSymbols" checked> Include Symbols</label><br/><br/>
+
+  <button id="save">Save</button>
+  <p id="statusMsg"></p>
+
+  <script src="options.js"></script>
+</body>
+</html>

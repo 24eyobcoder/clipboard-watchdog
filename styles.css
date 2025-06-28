@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 250px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+#statusMsg {
+  margin-top: 5px;
+  font-size: 13px;
+  color: green;
+}
